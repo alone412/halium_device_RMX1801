@@ -1,0 +1,27 @@
+# Bluetooth
+bt.max.hfpclient.connections=1
+persist.bt.a2dp.aac_disable=true
+ro.bluetooth.emb_wp_mode=false
+ro.bluetooth.wipower=false
+
+# Camera
+persist.camera.aifb=1
+persist.camera.filter.version=1
+persist.dualcam.lpm.enable=1
+ro.camera.dualcam.type=2
+ro.camera.hfr.enable=1
+ro.camera.sensor.aux2m=1
+ro.camera.temperature.limit=450
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# RIL
+DEVICE_PROVISIONED=1
+gsm.lte.ca.support=0
+persist.radio.custom_exp_ecc=1
+ril.subscription.types=NV,RUIM
+
+# SSR
+persist.vendor.ssr.enable_ramdumps=0
+persist.vendor.ssr.restart_level=ALL_ENABLE
